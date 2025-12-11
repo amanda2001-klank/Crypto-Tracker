@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // Add this line:
+  base: "/Crypto-Tracker/", 
+  
   plugins: [react()],
-  base: '/Crypto-Tracker/',  // Add this line – matches your GitHub repo name
 })
